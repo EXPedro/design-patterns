@@ -1,4 +1,4 @@
-package br.com.exp.padroes_projeto.factory;
+package br.com.exp.padroesprojeto.factory;
 
 /** <b>Padrão Factory</b>
  *  <p>

@@ -1,4 +1,4 @@
-package br.com.exp.padroes_projeto.factory;
+package br.com.exp.padroesprojeto.factory;
 
 /** <b>Padrão Factory</b>
  *  <p>
@@ -6,9 +6,9 @@ package br.com.exp.padroes_projeto.factory;
  *  <p>
  */
 
-public class Square implements Shape{
+public class Circle implements Shape {
     @Override
     public void draw() {
-        System.out.println("Inside Square::draw() method.");
+        System.out.println("Inside Circle::draw() method.");
     }
 }
