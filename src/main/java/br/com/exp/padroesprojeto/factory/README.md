@@ -1,9 +1,9 @@
-# Factory Pattern
+# Factory
 
-O padrão *factory* é um dos mais utilizados em Java.
+O padrão *Factory* é um dos mais utilizados em Java.
 Esse tipo de padrão de projeto é um padrão criacional,
 e é uma das melhores maneiras de criar objetos.  
-No padrão *factory*, criamos objetos sem expor a lógica
+No padrão *Factory*, criamos objetos sem expor a lógica
 de criação, e as referências aos objetos recém criados
 é feita através de uma interface comum.
 
