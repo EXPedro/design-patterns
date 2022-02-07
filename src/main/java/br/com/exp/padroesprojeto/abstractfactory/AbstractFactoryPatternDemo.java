@@ -10,25 +10,25 @@ package br.com.exp.padroesprojeto.abstractfactory;
 
 public class AbstractFactoryPatternDemo {
     public static void main(String[] args) {
-        //get shape factory
+        //cria uma fábrica de Shape
         AbstractFactory shapeFactory = FactoryProducer.getFactory(false);
-        //get an object of Shape Rectangle
+        //cria um objeto de Shape Rectangle
         Shape shape1 = shapeFactory.getShape("RECTANGLE");
-        //call draw method of Shape Rectangle
+        //chama o método draw de Shape Rectangle
         shape1.draw();
-        //get an object of Shape Square
+        //cria um objeto de Shape Square
         Shape shape2 = shapeFactory.getShape("SQUARE");
-        //call draw method of Shape Square
+        //chama o método draw de Shape Square
         shape2.draw();
-        //get shape factory
+        //cria uma fábrica de Shape (Rounded)
         AbstractFactory shapeFactory1 = FactoryProducer.getFactory(true);
-        //get an object of Shape Rectangle
+        //cria um objeto de Shape Rectangle
         Shape shape3 = shapeFactory1.getShape("RECTANGLE");
-        //call draw method of Shape Rectangle
+        //chama o método draw de Shape Rectangle
         shape3.draw();
-        //get an object of Shape Square
+        //cria um objeto de Shape Square
         Shape shape4 = shapeFactory1.getShape("SQUARE");
-        //call draw method of Shape Square
+        //chama o método draw de Shape Square
         shape4.draw();
     }
 }
