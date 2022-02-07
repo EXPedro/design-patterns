@@ -19,8 +19,8 @@ concretas implementando a interface, e uma interface representando
 a embalagem, e classes concretas implementando esta outra interface,
 com hamburgueres sendo colocados em suas embalagens, e as bebidas geladas 
 sendo colocadas nas garrafas.  
-Por fim, é criada uma classe Lanche tendo um *ArrayList* de Item,
-e um LancheBuilder (MealBuilder) para construir diferentes tipos de objeto
+Por fim, é criada uma classe Lanche (*Meal*) tendo um *ArrayList* de Item,
+e um LancheBuilder (*MealBuilder*) para construir diferentes tipos de objeto
 Lanche, combinando diferentes objetos *Item*. *BuilderPatternDemo* é a nossa
 classe de demonstração, e irá usar o (*Meal*)*Builder* para construir um lanche.  
 
