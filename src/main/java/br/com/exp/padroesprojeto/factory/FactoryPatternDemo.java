@@ -11,22 +11,22 @@ public class FactoryPatternDemo {
     public static void main(String[] args) {
         ShapeFactory shapeFactory = new ShapeFactory();
 
-        //get an object of Circle and call its draw method.
+        //cria um objeto Circle e chama seu método "draw".
         Shape shape1 = shapeFactory.getShape("CIRCLE");
 
-        //call draw method of Circle
+        //chama o método draw de Circle
         shape1.draw();
 
-        //get an object of Rectangle and call its draw method.
+        //cria um objeto Rectangle e chama seu método "draw".
         Shape shape2 = shapeFactory.getShape("RECTANGLE");
 
-        //call draw method of Rectangle
+        //chama o método draw de Rectangle
         shape2.draw();
 
-        //get an object of Square and call its draw method.
+        //cria um objeto Square e chama seu método "draw".
         Shape shape3 = shapeFactory.getShape("SQUARE");
 
-        //call draw method of square
+        //chama o método draw de square
         shape3.draw();
     }
 }
