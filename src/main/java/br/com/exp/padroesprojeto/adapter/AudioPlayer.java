@@ -14,7 +14,7 @@ public class AudioPlayer implements MediaPlayer {
 
         //suporte inbuilt para tocar arquivos mp3
         if(audioType.equalsIgnoreCase("mp3")){
-            System.out.println("Playing mp3 file. Name: " + fileName);
+            System.out.println("Tocando arquivo mp3. Nome: " + fileName);
         }
 
         //mediaAdapter providencia suporte para outros formatos de áudio
@@ -24,7 +24,7 @@ public class AudioPlayer implements MediaPlayer {
         }
 
         else{
-            System.out.println("Invalid media: " + audioType + " format not supported");
+            System.out.println("Mídia inválida: formato ." + audioType + " não suportado!");
         }
     }
 }
